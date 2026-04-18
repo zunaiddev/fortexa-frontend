@@ -1,6 +1,8 @@
 function InputField() {
     return (
-        <div></div>
+        <div>
+            <input className=""/>
+        </div>
     );
 }
 
