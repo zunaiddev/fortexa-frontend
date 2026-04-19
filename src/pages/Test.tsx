@@ -1,8 +1,8 @@
+import InputField from "../components/InputField.tsx";
+
 function Test() {
     return (
-        <div>
-            Test page
-        </div>
+        <InputField/>
     );
 }
 
