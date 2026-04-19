@@ -2,7 +2,7 @@ import InputField from "../components/InputField.tsx";
 
 function Test() {
     return (
-        <InputField/>
+        <InputField name={"name"} label={"name"}/>
     );
 }
 
