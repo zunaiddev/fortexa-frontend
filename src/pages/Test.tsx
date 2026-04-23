@@ -1,8 +1,11 @@
 import InputField from "../components/InputField.tsx";
+import Container from "../components/Container.tsx";
 
 function Test() {
     return (
-        <InputField name={"name"} label={"name"}/>
+        <Container>
+            <InputField name={"name"} label={"name"}/>
+        </Container>
     );
 }
 

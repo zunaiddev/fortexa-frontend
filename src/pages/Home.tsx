@@ -1,10 +1,12 @@
+import Container from "../components/Container.tsx";
+
 function Home() {
     return (
-        <div className="w-full h-full flex justify-center items-center">
+        <Container>
             <h1 className="text-white font-bold text-lg">
                 Welcome the home page
             </h1>
-        </div>
+        </Container>
     );
 }
 

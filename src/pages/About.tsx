@@ -1,10 +1,12 @@
+import Container from "../components/Container.tsx";
+
 function About() {
     return (
-        <div className="w-full h-full flex justify-center items-center">
+        <Container>
             <h1 className="text-white font-bold text-lg">
                 Welcome to the About Page!
             </h1>
-        </div>
+        </Container>
     );
 }
 
