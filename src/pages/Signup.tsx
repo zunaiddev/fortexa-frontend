@@ -10,7 +10,7 @@ function Signup() {
         formState: {errors},
     } = useForm<AuthForm>();
 
-    async function onSubmit(): void {
+    async function onSubmit(): Promise<void> {
 
     }
 
