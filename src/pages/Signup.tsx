@@ -48,7 +48,8 @@ function Signup() {
 
                 <Button isSubmitting={isSubmitting} className="mt-4">Signup</Button>
 
-                <Link to={"/auth/login"} className={"pointer-events-none select-none"}>Not Have an account login</Link>
+                <Link to={"/auth/login"} className={isSubmitting ? "pointer-events-none select-none" : ""}>Not Have an
+                    account login</Link>
             </AuthForm>
         </Container>
     );
