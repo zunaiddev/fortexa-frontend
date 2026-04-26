@@ -8,7 +8,7 @@ interface Props {
 
 function Container({children, className}: Props) {
     return (
-        <div className={twMerge("w-full h-full flex justify-center items-center", className)}>
+        <div className={twMerge("p-3 w-full h-full flex justify-center items-center", className)}>
             {children}
         </div>
     );
