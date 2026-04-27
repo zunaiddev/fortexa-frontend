@@ -1,6 +1,8 @@
 function ChatScreen() {
     return (
-        <div></div>
+        <div>
+
+        </div>
     );
 }
 

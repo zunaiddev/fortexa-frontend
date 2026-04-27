@@ -1,4 +1,4 @@
-import ProfilePic from "../pages/ProfilePic.tsx";
+import ProfilePic from "./ProfilePic.tsx";
 
 function UserCon() {
     return (
