@@ -26,6 +26,4 @@ function getRandomColor(): string {
     return `${bgColors[ran]}`;
 }
 
-console.log(getRandomColor());
-
 export default ProfilePic;
