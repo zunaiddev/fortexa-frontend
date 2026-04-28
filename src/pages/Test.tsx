@@ -1,12 +1,10 @@
 import Container from "../components/Container.tsx";
-import UserCon from "../components/UserCon.tsx";
+import SearchInput from "../components/SearchInput.tsx";
 
 function Test() {
     return (
         <Container>
-            <UserCon>
-
-            </UserCon>
+            <SearchInput/>
         </Container>
     );
 }
