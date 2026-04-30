@@ -9,10 +9,10 @@ function SearchInput({...props}: Props) {
         <form className="max-w-md mx-auto">
             <label htmlFor="search" className="block mb-2.5 text-sm font-medium text-heading sr-only ">Search</label>
             <div className="relative">
-                <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                <div className="absolute inset-y-0 flex items-center ps-3 pointer-events-none">
                     <SearchIcon/>
                 </div>
-                <input type="search" id="search"
+                <input type="search" id="search" {...props}
                        className="block w-full p-3 ps-9 bg-prussianblue border text-white text-sm rounded"
                        placeholder="Search" required/>
                 <button type="button"
