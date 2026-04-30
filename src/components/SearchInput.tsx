@@ -16,7 +16,7 @@ function SearchInput({...props}: Props) {
                        className="block w-full p-3 ps-9 bg-prussianblue border text-white text-sm rounded"
                        placeholder="Search" required/>
                 <button type="button"
-                        className="absolute inset-e-1.5 bottom-1.5 text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 focus:outline-none">Search
+                        className="absolute inset-e-1.5 bottom-1.5 text-white bg-blue-600 shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 cursor-pointer">Search
                 </button>
             </div>
         </form>
