@@ -1,12 +1,13 @@
 import type {InputHTMLAttributes} from "react";
 import SearchIcon from "../assets/SearchIcon.tsx";
 
-type Props = InputHTMLAttributes<HTMLInputElement>
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
+    onClick?: () => void;
+}
 
-
-function SearchInput({...props}: Props) {
+function SearchInput({onClick, ...props}: Props) {
     return (
-        <form className="max-w-md mx-auto">
+        <form className="max-w-md mx-auto w-full">
             <label htmlFor="search" className="block mb-2.5 text-sm font-medium text-heading sr-only ">Search</label>
             <div className="relative">
                 <div className="absolute inset-y-0 flex items-center ps-3 pointer-events-none">
@@ -15,7 +16,7 @@ function SearchInput({...props}: Props) {
                 <input type="search" id="search" {...props}
                        className="block w-full p-3 ps-9 bg-prussianblue border text-white text-sm rounded"
                        placeholder="Search" required/>
-                <button type="button"
+                <button type="button" onClick={onClick}
                         className="absolute inset-e-1.5 bottom-1.5 text-white bg-blue-600 shadow-xs font-medium leading-5 rounded text-xs px-3 py-1.5 cursor-pointer">Search
                 </button>
             </div>
