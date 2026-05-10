@@ -6,7 +6,7 @@ import NotFound from "../pages/NotFound.tsx";
 import AuthLayout from "../layout/AuthLayout.tsx";
 import Login from "../pages/Login.tsx";
 import Signup from "../pages/Signup.tsx";
-import Test from "../pages/Test.tsx";
+import ChatScreen from "../pages/ChatScreen.tsx";
 
 const router = createBrowserRouter([{
     path: "/",
@@ -38,7 +38,7 @@ const router = createBrowserRouter([{
         },
         {
             path: "/test",
-            element: <Test/>
+            element: <ChatScreen/>
         },
         {
             path: "*",
